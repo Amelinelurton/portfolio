@@ -1,0 +1,126 @@
+/* page */
+body{
+    margin: 0%;
+}
+/* élements */
+a{
+    text-decoration: none;
+    color: black;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   color: white;
+   background: black;
+   border-radius: 8px;
+   width: fit-content;
+   padding: 8px 16px;
+   border: 2px solid black;
+   transition: all .3s ease-in-out;
+}
+.button:hover {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-decoration: none;
+   color: white;
+   background: gray;
+   border-radius: 8px;
+   width: fit-content;
+   padding: 8px 16px;
+   border: 2px solid gray;
+   transition: all .3s ease-in-out;
+}
+
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+    background: red;
+}
+.logo-nom a{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+nav a:hover{
+    color: grey;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: blue;
+}
+#presentation-photo img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* main */
+/* les compétences (3 colonnes) */
+#les-compétences{
+    background: green;
+}
+#les-cards-compétences{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: bisque;
+    gap: 5%;
+}
+.card-compétence{
+    background: rgb(213, 184, 241);
+    width: 25%;
+}
+
+/* les projets (Grille 2x2) */
+#les-projets{
+    background: purple;
+}
+#cards-projets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vw;
+    background: rgb(199, 172, 177);
+}
+.card-projet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background: rgb(197, 248, 197);
+    width: 40%;
+    height: 40%;
+}
+/* Témoignages clients */
+#avis-clients{
+    background: pink;
+}
+/* Pourquoi travailler avec moi ? */
+#argumentaire-commercial{
+    background: rgb(205, 247, 255);
+}
+/* formulaire de contact */
