@@ -1,7 +1,14 @@
 /* page */
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap');
 body{
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
     margin: 0%;
 }
+
 /* élements */
 a{
     text-decoration: none;
@@ -10,10 +17,14 @@ a{
 h2{
     display: flex;
     justify-content: center;
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 video{
     width: 100%;
     height: 100%;
+    border-radius: 10%;
 }
 .button{
    display: flex;
@@ -22,7 +33,7 @@ video{
    text-decoration: none;
    color: white;
    background: black;
-   border-radius: 8px;
+   border-radius: 20px;
    width: fit-content;
    padding: 8px 16px;
    border: 2px solid black;
@@ -48,7 +59,7 @@ nav{
     justify-content: space-between;
     padding-right: 5%;
     padding-left: 5%;
-    background: red;
+    background:blanchedalmond;
 }
 .logo-nom a{
     display: flex;
@@ -70,29 +81,32 @@ header{
     align-items: center;
     padding-left: 5%;
     padding-right: 5%;
-    background: blue;
+    background: whitesmoke;
 }
 #presentation-photo img{
     width: 250px;
     height: 250px;
     object-fit: cover;
+    border-radius: 10%;
 }
 
 /* main */
 /* les compétences (3 colonnes) */
 #les-compétences{
-    background: green;
+    background: blanchedalmond;
 }
 #les-cards-compétences{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: bisque;
+    
     gap: 5%;
 }
 .card-compétence{
     background: rgb(213, 184, 241);
     width: 25%;
+    border-radius: 10%;
+    padding: 1%;
 }
 
 /* les projets (Grille 2x2) */
@@ -114,13 +128,21 @@ header{
     background: rgb(197, 248, 197);
     width: 40%;
     height: 40%;
+    border-radius: 10%;
+}
+.card-projet img{
+    border-radius: 10%;
+}
+/* Pourquoi travailler avec moi ? */
+#argumentaire-commercial{
+    background: rgb(205, 247, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* Témoignages clients */
 #avis-clients{
     background: pink;
 }
-/* Pourquoi travailler avec moi ? */
-#argumentaire-commercial{
-    background: rgb(205, 247, 255);
-}
+
 /* formulaire de contact */
