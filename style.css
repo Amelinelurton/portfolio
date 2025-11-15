@@ -29,7 +29,7 @@ h1{
     color: rgb(10, 159, 112);
 }
 video{
-    width: 40vh;
+    width: 95%;
     height: 40vh;
     object-fit: cover;
     border-radius: 10%;
@@ -40,11 +40,11 @@ video{
    justify-content: center;
    text-decoration: none;
    color: white;
-   background: black;
-   border-radius: 20px;
+   background: rgb(10, 159, 112);
+   border-radius: 8px;
    width: fit-content;
    padding: 8px 16px;
-   border: 2px solid black;
+   border: 2px solid rgb(10, 159, 112);
    transition: all .3s ease-in-out;
 }
 .button:hover {
@@ -52,12 +52,12 @@ video{
    align-items: center;
    justify-content: center;
    text-decoration: none;
-   color: white;
-   background: rgb(10, 159, 112);
+   color: black;
+   background: rgb(13, 186, 131);
+   border: 2px solid rgb(10, 159, 112);
    border-radius: 8px;
    width: fit-content;
    padding: 8px 16px;
-   border: 2px solid gray;
    transition: all .3s ease-in-out;
 }
 
@@ -146,6 +146,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     gap: 5vw;
 }
 .card-projet{
@@ -229,7 +230,6 @@ input[name="slide"] {
   background:rgb(10, 159, 112) ;
 }
 
-
 #s1:checked ~ .dots label:nth-child(1),
 #s2:checked ~ .dots label:nth-child(2),
 #s3:checked ~ .dots label:nth-child(3) {
@@ -251,6 +251,7 @@ input[name="slide"] {
 
 form {
   max-width: 600px;
+  width: 40vh;
   margin: 0 auto;
   padding: 1em;
   border: 1px solid #cccccc00;
@@ -273,8 +274,6 @@ input, textarea {
   box-sizing: border-box;
 }
 
-
-
 /* nav footer */
 #navfooter{
     display: flex;
@@ -287,7 +286,12 @@ input, textarea {
 #navfooter img{
     width: 40px;
     height: 40px;
+    border-radius: 40%;
     object-fit: contain;
+}
+
+#navfooter img:hover{
+  filter: brightness(0) saturate(100%) invert(38%) sepia(82%) saturate(443%) hue-rotate(110deg) brightness(108%) contrast(97%);
 }
 
 /* footer */
