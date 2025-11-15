@@ -7,6 +7,7 @@
     <title>Léo Vanel Motion</title>
 </head>
 <body>
+
     <!-- nav -->
     <nav>
         <div class="logo-nom">
@@ -16,9 +17,10 @@
         </div>
         <div>
             <ul>
-                <a href="#presentation"><li>À propos</li></a>
-                <a href="#les-projets""><li>Réalisation</li></a>
-                <a href="#contact"><li>Contact</li></a>
+                <a href="#les-compétences"><li>Compétences</li></a>
+                <a href="#les-projets"><li>Projets</li></a>
+                <a href="#carousel"><li>Avis clients</li></a>
+                <a href="#contact"><li>Contacter</li></a>
             </ul>
         </div>
     </nav>
@@ -43,30 +45,34 @@
             <h2>Mes compétences</h2>
             <div id="les-cards-compétences">
                 <div class="card-compétence">
-                    <h3>Animation 2D / 3D</h3>
-                    <video autoplay muted loop>
-                    <source src="Vidéo/VidéosMotionDesigner.mp4" type="video/mp4">
-                    </video>
+                    <div class="h3vidéo">
+                        <h3>Animation 2D / 3D</h3>
+                        <video autoplay muted loop>
+                            <source src="Vidéo/VidéosMotionDesigner.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <p>Conception et animation de visuels dynamiques pour vos vidéos, publicités, ou présentations professionnelles.</p>
                 </div>
                 <div class="card-compétence">
-                    <h3>Vidéo explicative</h3>
-                    <video autoplay muted loop>
-                    <source src="Vidéo/Animation-explicative.mp4" type="video/mp4">
-                    </video>
+                        <div class="h3vidéo">
+                            <h3>Vidéo explicative</h3>
+                            <video autoplay muted loop>
+                                <source src="Vidéo/Animation-explicative.mp4" type="video/mp4">
+                            </video>
+                        </div>
                     <p>Création de vidéos animées pédagogiques pour présenter un service, un produit
                     ou une idée de manière claire et engageante.</p>
                 </div>
                 <div class="card-compétence">
-                    <h3>Identité animée</h3>
-                    <video autoplay muted loop>
-                    <source src="Vidéo/Animation Logo Vidéo 4K.mp4" type="video/mp4">
-                    </video>
+                    <div class="h3vidéo">
+                        <h3>Identité animée</h3>
+                        <video autoplay muted loop>
+                            <source src="Vidéo/Animation Logo Vidéo 4K.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <p>Animation de logos et d’éléments graphiques pour renforcer la reconnaissance de
                     votre marque dans vos contenus vidéo.</p>
                 </div>
-        
-
                 </div>
             </div>
         </section>
@@ -111,12 +117,11 @@
                     Identité graphique énergique et rythmée.</p>
                 </div>
             </div>
-            
          </section>
          
-
          <!-- Témoignages clients -->
-         <section id="carousel">
+         <section id="temoignage">
+         <div id="carousel">
             <h2>Témoignages</h2>
 
             <input type="radio" name="slide" id="s1" checked>
@@ -152,6 +157,7 @@
                 <label for="s2"></label>
                 <label for="s3"></label>
             </div>
+            </div>
             </section>   
 
 
@@ -171,24 +177,22 @@
                 <label for="message">Message :</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
 
-                <button type="submit">Envoyer</button>
+                <a class="button primari" type="submit" href="#les-projets">Envoyer</a>
+
             </form>
 
           </section>
 
      </main>
 
-
-
-
      <!-- nav footer -->
       <nav id="navfooter">
         <ul id="liste">
             <a href="#presentation"><li>Léo Vanel</li></a>
-            <a href="#les-compétences"><li>Mes compétences</li></a>
-            <a href="#les-projets"><li>Mes projets</li></a>
-            <a href="#carousel"><li>Mes avis clients</li></a>
-            <a href="#contact"><li>Me contacter</li></a>
+            <a href="#les-compétences"><li>Compétences</li></a>
+            <a href="#les-projets"><li>Projets</li></a>
+            <a href="#carousel"><li>Avis clients</li></a>
+            <a href="#contact"><li>Contacter</li></a>
         </ul>
         <ul>
             <a href=""><img src="images/logo_reseaux/Linkidin.png" alt="logo logo_reseaux"></a>
@@ -196,26 +200,13 @@
             <a href=""><img src="images/logo_reseaux/facedebook.png" alt="logo logo_reseaux"></a>
             <a href=""><img src="images/logo_reseaux/tiktik.png" alt="logo logo_reseaux"></a>
             <a href=""><img src="images/logo_reseaux/instatagram.png" alt="logo logo_reseaux"></a>
-            
-        
         </ul>
-        
-
       </nav>
-
-
-
-
-
-
-
-
 
     <!--footer  -->
     <footer>
         <p>© 2025 Léo Vanel Motion. Tous droits réservés.</p>
     </footer>
 
-    
 </body>
 </html>
